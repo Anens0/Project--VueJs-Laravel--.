@@ -16,11 +16,9 @@ About: DataTables is a plug-in for the jQuery Javascript library. It is a highly
 
 ## =================================
 ### Demo Credentials
-**Admin:** root@root.com  
-**Password:** root
+**Username:** Admin@gmail.com  
+**Password:** 1234
 
-**User:** user@user.com  
-**Password:** user
 
 ### License
 MIT: [http://z4dev.mit-license.org](http://z4dev.mit-license.org)
