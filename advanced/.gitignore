@@ -1,0 +1,44 @@
+# Ignore all test and documentation with "export-ignore".
+/.github            export-ignore
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+/.vscode
+/coverage
+/node_modules
+/public/css
+/public/js
+/public/fonts
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/storage/*.key
+/vendor
+/app                export-ignore
+/docs               export-ignore
+/tests              export-ignore
+*.sublime-project
+*.sublime-workspace
+_ide_helper.php
+.DS_Store
+.env
+.env.backup
+.idea
+.editorconfig      export-ignore
+.php_cs.cache
+.phpunit.result.cache
+.phpstorm.meta.php
+/testbench.yaml     export-ignore
+/UPGRADING.md       export-ignore
+/phpstan.neon.dist  export-ignore
+/phpstan-baseline.neon  export-ignore
+.project
+composer.phar
+coverage.xml
+docker-compose.override.yml
+error.log
+Homestead.json
+Homestead.yaml
+npm-debug.log
+output.txt
+Thumbs.db
+yarn-error.log
