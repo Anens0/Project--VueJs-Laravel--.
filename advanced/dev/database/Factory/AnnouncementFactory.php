@@ -56,7 +56,7 @@ class AnnouncementFactory extends Factory
 
     /**
      * @return AnnouncementFactory
-     
+
     public function frontend()
     {
         return $this->state(function (array $attributes) {
