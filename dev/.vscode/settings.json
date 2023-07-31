@@ -56,5 +56,8 @@
     "gitlens.advanced.blame.sizeThresholdAfterEdit": 4000,
     "terminal.integrated.scrollback": 500,
     "vue.server.maxOldSpaceSize": 2048,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": true,
+    "sqltools.disableNodeDetectNotifications": true,
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose"
 }
