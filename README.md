@@ -1,4 +1,4 @@
-## Laravel-Vue.Js (Current: Laravel 8.* , Vue.Js: 3) ([Demo]())
+## Laravel-Vue.Js (Current: Laravel 8.*) ([Demo]())
 
 ## =================================
 ### Introduction
