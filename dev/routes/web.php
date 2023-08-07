@@ -1,21 +1,22 @@
 <?php
 
-use App\Http\Controllers\LocaleController;
-
-
-
-// Switch between the included languages
-Route::get('lang/{lang}', [LocaleController::class, 'change'])->name('locale.change');
+use Illuminate\Support\Facades\Route;
 
 /*
- * Global Routes
- *
- * Routes that are used between both frontend and backend.
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
 */
-Route::group(['as' => 'frontend.'], function () {
-    includeRouteFiles(__DIR__.'');
-});
-Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'admin'], function () {
-    includeRouteFiles(__DIR__.'');
+
+Route::get('/index', function () {
+    return view('index');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
